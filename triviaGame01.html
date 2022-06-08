@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia!</title>
+</head>
+<body>
+    <div id="header">
+        <h3>Welcome to Trivia Night!!</h3>
+        <button onclick="apiCall()" type="submit">Begin Game!</button>
+        <!-- <p>Category Choices:</p> -->
+        <!-- <div id="categoryList"> -->
+
+        <!-- </div> -->
+        
+    </div>
+
+    <div id="main">
+        <div id="currentQuestion">
+
+        </div>
+
+        <div id="userAnswer">
+            <div id="dropdownAnswer">
+
+            </div>
+
+            <button id="submitAnswer" type="submit" onclick="checkAnswer()">Submit Answer</button>
+
+        </div>
+
+        <div id="nextQuestion">
+            <button id="nextQuestion" onclick="displayQuestion()">Next Question</button>
+
+        </div>
+        
+
+    </div>
+
+    <div id="footer">
+        <div id="footerMessage">
+
+        </div>
+
+        <div id="scoreboard">
+
+        </div>
+
+    </div>
+    
+    <script src="triviaGame01.js"></script>
+</body>
+</html>
